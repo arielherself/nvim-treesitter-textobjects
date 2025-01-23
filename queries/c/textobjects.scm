@@ -15,7 +15,8 @@
     "{"
     .
     (_) @_start @_end
-    (_)? @_end
+    (_)* @_end
+    (ERROR)* @_end
     .
     "}"
     (#make-range! "function.inner" @_start @_end)))
